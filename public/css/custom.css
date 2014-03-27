@@ -1,0 +1,116 @@
+/*Custom CSS*/
+html {
+	height: 100%;
+	margin: 0;
+}
+body {
+	background: #E2E4E7;
+	padding: 0;
+	text-align: center;
+	position: relative;
+	margin: 0;
+	height: 100%;
+	-webkit-font-smoothing: antialiased;
+}
+.content{
+	padding-top: 100px;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+.wrapper {
+	height: 100%;
+	min-height: 100%;
+	margin: 0 auto; 
+	overflow: hidden;
+}
+
+.main{
+	padding-top: 50px;
+	float: left;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.main section .page_container {
+	position: relative;
+	top: 25%;
+	margin: 0 auto 0;
+	max-width: 950px;
+	z-index: 3;
+}
+
+.main section  {
+	overflow: hidden;
+}
+
+.main section > img {
+	position: absolute;
+	max-width: 100%;
+	z-index: 1;
+}
+
+.main section.page1 {
+	/*background:rgb(230, 217, 200);*/
+}
+
+.main section.page2 {
+	/*background: rgb(100,250, 0);*/
+}
+
+.main section.page3 {
+	/*background: rgb(250,0, 0);*/
+}
+
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	cross-origin: anonymous;
+}
+
+#scrollUp {
+	bottom: 20px;
+	right: 20px;
+	height: 38px;  
+	width: 38px; 
+	background: url(../img/top.png) no-repeat;
+}
+
+/*
+#scrollUp {
+	bottom: 0px;
+	right: 30px;
+	width: 70px;
+	height: 70px;
+	margin-bottom: -10px;
+	padding: 10px 5px;
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	text-align: center;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #fff;
+	color: #828282;
+	-webkit-box-shadow: 0 0px 2px 1px rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 0px 2px 1px rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0px 2px 1px rgba(0, 0, 0, 0.2);
+	background-color: #E6E6E6;
+	background-image: -moz-linear-gradient(top, #EBEBEB, #DEDEDE);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#EBEBEB), to(#DEDEDE));
+	background-image: -webkit-linear-gradient(top, #EBEBEB, #DEDEDE);
+	background-image: -o-linear-gradient(top, #EBEBEB, #DEDEDE);
+	background-image: linear-gradient(to bottom, #EBEBEB, #DEDEDE);
+	background-repeat: repeat-x;
+	-webkit-transition: margin-bottom 150ms linear;
+	-moz-transition: margin-bottom 150ms linear;
+	transition: margin-bottom 150ms linear;
+}
+	#scrollUp:hover {
+		margin-bottom: 0px;
+	}
+
+
+
+
+	*/
